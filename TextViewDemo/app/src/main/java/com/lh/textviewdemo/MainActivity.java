@@ -1,4 +1,4 @@
-package com.lh.relativelayoutdemo;
+package com.lh.textviewdemo;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -13,13 +13,12 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        final Intent it = new Intent(this,Margin_PaddingDemo.class);
         Button btn = findViewById(R.id.next);
-        btn.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(it);
-            }
-            });
+
+    }
+
+    protected void ClickListener(View view){
+        Intent it = new Intent(this,bonderTextView.class);
+        startActivity(it);
     }
 }
