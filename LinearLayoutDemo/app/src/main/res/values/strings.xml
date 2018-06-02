@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LinearLayoutDemo</string>
+    <string name="seconddivider">②第二种则是使用LinearLayout的一个divider属性,直接为LinearLayout设置分割线 这里就需要你自己准备一张线的图片了 1)android:divider设置作为分割线的图片 2)android:showDividers设置分割线的位置,none(无),beginning(开始),end(结束),middle(每两个组件间) 3)dividerPadding设置分割线的Padding</string>
+    <string name="next">NEXT</string>
+</resources>
