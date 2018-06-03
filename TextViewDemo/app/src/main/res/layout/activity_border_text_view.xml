@@ -6,7 +6,7 @@
     android:background="#FFFFFF"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".borderTextView">
 
     <TextView
         android:id="@+id/txtOne"

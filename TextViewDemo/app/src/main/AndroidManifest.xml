@@ -16,7 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".bonderTextView"></activity>
+        <activity android:name=".borderTextView" />
+        <activity android:name=".TextViewEffects" />
+        <activity android:name=".DrawableDemo" />
+        <activity android:name=".AutoLinkDemo" />
+        <activity android:name=".TextViewForHTMLDemo" />
+        <activity android:name=".TextViewForHTMLDemo2" />
+        <activity android:name=".SpannableStringDemo" />
+        <activity android:name=".SpannableStringDemo2" />
+        <activity android:name=".MarqueeDemo"></activity>
     </application>
 
 </manifest>

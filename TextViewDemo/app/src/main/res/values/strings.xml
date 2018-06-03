@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">TextViewDemo</string>
     <string name="next">NEXT</string>
+    <string name="activity_name1">基础属性与特效</string>
+    <string name="activity_name2">有边框的TextView</string>
+    <string name="activity_name3">Drawable属性</string>
+    <string name="activity_name4">使用autoLink属性识别链接类型</string>
+    <string name="activity_name5">TextView玩转HTML</string>
+    <string name="activity_name6">SpannableString定制文本</string>
+    <string name="activity_name7">跑马灯效果、字间距、行间距、自动换行</string>
 </resources>
