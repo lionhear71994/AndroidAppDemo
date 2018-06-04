@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ButtonDemo</string>
+    <string name="activity_name1">实现按钮的按下效果</string>
+</resources>

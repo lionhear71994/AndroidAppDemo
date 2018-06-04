@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">EditTextDemo</string>
+    <string name="activity_name1">EditText基础属性</string>
+    <string name="activity_name2">带表情的EditText的简单实现</string>
+</resources>

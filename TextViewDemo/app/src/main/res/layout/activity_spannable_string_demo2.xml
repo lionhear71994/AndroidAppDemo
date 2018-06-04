@@ -8,11 +8,9 @@
 
 
     <TextView
-        android:id="@+id/暂未实现"
+        android:id="@+id/txtOne"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
-        android:text="暂未实现"
-        android:textSize="30sp"
-        android:visibility="visible" />
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
 </RelativeLayout>
