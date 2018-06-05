@@ -10,8 +10,9 @@
         android:id="@+id/edit_one"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btn_add"
         android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
+        android:layout_marginTop="50dp"
         android:ems="10"
         android:inputType="textPersonName" />
 
@@ -19,19 +20,18 @@
         android:id="@+id/btn_add"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/edit_one"
+        android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="39dp"
+        android:layout_marginTop="29dp"
         android:text="ADD" />
 
-    <EditText
+
+    <com.lh.edittextdemo.EditTextWithDel
         android:id="@+id/et_del"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/edit_one"
         android:layout_below="@+id/edit_one"
-        android:layout_marginTop="27dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:hint="自定义EditText暂未实现" />
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="127dp"
+        android:text="带删除按钮的EditText" />
 </RelativeLayout>
