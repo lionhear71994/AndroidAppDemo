@@ -39,7 +39,7 @@ public class EditTextWithDel extends EditText {
     }
 
     private void init() {
-        imgInable = mContext.getResources().getDrawable(R.drawable.delete_gray);
+        imgInable = mContext.getResources().getDrawable(R.drawable.close_delete_2);
         addTextChangedListener(new TextWatcher() {
             @Override
             public void onTextChanged(CharSequence s, int start, int before, int count) {
@@ -80,6 +80,7 @@ public class EditTextWithDel extends EditText {
         }
         return super.onTouchEvent(event);
     }
+
     @Override
     protected void finalize() throws Throwable {
         super.finalize();
