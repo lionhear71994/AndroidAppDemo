@@ -2,5 +2,6 @@
     <string name="app_name">ImageViewDemo</string>
     <string name="activity_name1">src属性和background属性的区别</string>
     <string name="activity_name2">adjustViewBounds设置缩放是否保存原图长宽比</string>
+    <string name="activity_name3">绘制圆形的ImageView</string>
 
 </resources>

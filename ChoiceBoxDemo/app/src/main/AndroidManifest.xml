@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.lh.imageviewdemo">
+    package="com.lh.choiceboxdemo">
 
     <application
         android:allowBackup="true"
@@ -16,9 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ImageViewAttr" />
-        <activity android:name=".AdjustViewBoundsDemo" />
-        <activity android:name=".RoundedImageView"></activity>
+        <activity android:name=".RadioButtonActivity" />
+        <activity android:name=".CheckBoxActivity"></activity>
     </application>
 
 </manifest>

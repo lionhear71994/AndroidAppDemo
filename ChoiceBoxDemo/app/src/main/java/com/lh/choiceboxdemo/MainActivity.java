@@ -1,4 +1,4 @@
-package com.lh.imageviewdemo;
+package com.lh.choiceboxdemo;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -15,18 +15,14 @@ public class MainActivity extends AppCompatActivity {
 
     public void clickEvent(View view) {
 
-        Intent it = new Intent(this, ImageViewAttr.class);
+        Intent it = new Intent(this, RadioButtonActivity.class);
 
         switch (view.getId()) {
             case R.id.btn1:
                 startActivity(it);
                 break;
-            case  R.id.btn2:
-                it.setClass(this,AdjustViewBoundsDemo.class);
-                startActivity(it);
-                break;
-            case  R.id.btn3:
-                it.setClass(this,RoundedImageView.class);
+            case R.id.btn2:
+                it.setClass(this,CheckBoxActivity.class);
                 startActivity(it);
                 break;
         }
