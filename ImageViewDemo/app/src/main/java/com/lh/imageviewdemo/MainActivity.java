@@ -25,7 +25,13 @@ public class MainActivity extends AppCompatActivity {
                 it.setClass(this,AdjustViewBoundsDemo.class);
                 startActivity(it);
                 break;
+            case  R.id.btn3:
+                it.setClass(this,RoundedImageView.class);
+                startActivity(it);
+                break;
         }
+
+
 
     }
 }

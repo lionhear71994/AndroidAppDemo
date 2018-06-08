@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Data_TimeDemo</string>
+    <string name="activity_name1">TextClock和AnalogClock</string>
+    <string name="activity_name2">Chronometer</string>
+    <string name="activity_name3">DatePicker</string>
+    <string name="activity_name4">TimePicker</string>
+    <string name="activity_name5">CalendarView</string>
+
+</resources>

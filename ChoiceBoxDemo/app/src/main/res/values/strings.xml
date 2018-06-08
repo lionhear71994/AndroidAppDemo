@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ChoiceBoxDemo</string>
+    <string name="activity_name1">RadioBox</string>
+    <string name="activity_name2">CheckBox</string>
+</resources>

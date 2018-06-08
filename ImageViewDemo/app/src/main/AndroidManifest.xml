@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".ImageViewAttr" />
-        <activity android:name=".AdjustViewBoundsDemo"></activity>
+        <activity android:name=".AdjustViewBoundsDemo" />
+        <activity android:name=".RoundedImageView"></activity>
     </application>
 
 </manifest>
