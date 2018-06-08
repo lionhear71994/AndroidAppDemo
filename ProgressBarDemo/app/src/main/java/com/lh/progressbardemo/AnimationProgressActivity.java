@@ -13,7 +13,8 @@ public class AnimationProgressActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_animation_progress);
+
         img_pgbar = (ImageView) findViewById(R.id.img_pgbar);
         ad = (AnimationDrawable) img_pgbar.getDrawable();
         img_pgbar.postDelayed(new Runnable() {

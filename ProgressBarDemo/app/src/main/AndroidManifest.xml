@@ -17,7 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".DefaultProgressBarActivity" />
-        <activity android:name=".AnimationProgressActivity"></activity>
+        <activity android:name=".AnimationProgressActivity" />
+        <activity android:name=".CircleProgressActivitiy"></activity>
     </application>
 
 </manifest>

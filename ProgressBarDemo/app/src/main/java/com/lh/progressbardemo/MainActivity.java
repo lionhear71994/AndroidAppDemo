@@ -22,12 +22,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(it);
                 break;
             case R.id.btn2:
-                it.setClass(this,Object.class);
+                it.setClass(this,AnimationProgressActivity.class);
+                startActivity(it);
+                break;
+            case R.id.btn3:
+                it.setClass(this,CircleProgressActivitiy.class);
                 startActivity(it);
                 break;
         }
-
-
-
     }
 }

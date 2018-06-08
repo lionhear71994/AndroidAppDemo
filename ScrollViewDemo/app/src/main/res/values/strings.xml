@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ScrollViewDemo</string>
+    <string name="activity_name1">ScrollView基本用法</string>
+</resources>

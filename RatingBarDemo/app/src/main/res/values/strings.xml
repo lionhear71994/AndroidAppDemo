@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RatingBarDemo</string>
+    <string name="activity_name1">RatingBar的基本用法</string>
+</resources>
