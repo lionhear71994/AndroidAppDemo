@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.lh.alertdialogdemo.MainActivity">
+
+    <Button
+        android:id="@+id/btn_dialog_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bt1" />
+
+    <Button
+        android:id="@+id/btn_dialog_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bt2" />
+
+    <Button
+        android:id="@+id/btn_dialog_three"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bt3" />
+
+    <Button
+        android:id="@+id/btn_dialog_four"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bt4" />
+
+    <Button
+        android:id="@+id/bt_pd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bt5"
+        android:onClick="clickEvent"/>
+
+
+
+
+
+</LinearLayout>

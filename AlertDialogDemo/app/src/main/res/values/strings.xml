@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AlertDialogDemo</string>
+    <string name="bt1">普通的Dialog</string>
+    <string name="bt2">带列表的Dialog</string>
+    <string name="bt3">带单选框的Dialog</string>
+    <string name="bt4">带复选框的Dialog</string>
+    <string name="bt5">进度条对话框</string>
+    <string name="bt_pd1">圆形进度对话框</string>
+    <string name="bt_pd2">进度条对话框</string>
+    <string name="bt_pd3">耗时进度条对话框</string>
+</resources>

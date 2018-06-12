@@ -5,15 +5,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import java.util.LinkedList;
-
-/**
- * Created by LH on 2018/6/11.
- */
 
 public class MyAdapter extends BaseAdapter {
 
@@ -59,25 +54,11 @@ public class MyAdapter extends BaseAdapter {
         return convertView;
     }
 
-    private class ViewHolder{
-        ImageView img_icon;
-        TextView txt_content;
-    }
-
     public void add(Data data) {
         if (mData == null) {
             mData = new LinkedList<>();
         }
         mData.add(data);
-        notifyDataSetChanged();
-    }
-
-    //往特定位置，添加一个元素
-    public void add(int position,Data data){
-        if (mData == null) {
-            mData = new LinkedList<>();
-        }
-        mData.add(position,data);
         notifyDataSetChanged();
     }
 
@@ -87,4 +68,10 @@ public class MyAdapter extends BaseAdapter {
         }
         notifyDataSetChanged();
     }
+
+    private class ViewHolder{
+        ImageView img_icon;
+        TextView txt_content;
+    }
+
 }
