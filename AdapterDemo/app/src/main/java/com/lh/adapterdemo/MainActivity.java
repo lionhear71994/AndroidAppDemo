@@ -24,7 +24,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(it);
                 break;
             case R.id.btn3:
-                it.setClass(this,Object.class);
+                it.setClass(this,BaseAdapterActivity.class);
+                startActivity(it);
+                break;
+            case R.id.btn4:
+                it.setClass(this,ListViewActivity.class);
                 startActivity(it);
                 break;
         }

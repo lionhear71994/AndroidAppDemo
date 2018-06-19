@@ -2,5 +2,6 @@
     <string name="app_name">AdapterDemo</string>
     <string name="activity_name1">ArrayAdapter</string>
     <string name="activity_name2">SimpleAdapter</string>
-    <string name="activity_name3">SimpleCursorAdapter(未copy)</string>
+    <string name="activity_name3">自定义BaseAdapter</string>
+    <string name="activity_name4">ListView的数据更新问题</string>
 </resources>

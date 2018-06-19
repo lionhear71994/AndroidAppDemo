@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ReuseBaseAdapterDemo</string>
+    <string name="activity_name1">可复用的自定义BaseAdapter</string>
+    <string name="activity_name2">ListView Item多布局的实现</string>
+    <item name="Tag_APP" type="id"></item>
+    <item name="Tag_Book" type="id"></item>
+</resources>
